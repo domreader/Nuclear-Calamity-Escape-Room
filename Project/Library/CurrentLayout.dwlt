@@ -45,7 +45,7 @@ MonoBehaviour:
   m_MinSize: {x: 681, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 63
+  controlID: 87
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -210,7 +210,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 77
+  controlID: 88
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -234,7 +234,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 221}
   m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 78
+  controlID: 89
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -354,34 +354,34 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Materials
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Materials
+  - Assets/Scripts
   m_LastFoldersGridSize: 96
   m_LastProjectPath: C:\Users\dgreader\Documents\GitHub\Nuclear-Calamity-Escape-Room\Project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 722a0000
-    m_LastClickedID: 10866
-    m_ExpandedIDs: 00000000a6290000b0290000ea2a00004c2d000000ca9a3bffffff7f
+    m_SelectedIDs: 9e2a0000
+    m_LastClickedID: 10910
+    m_ExpandedIDs: 00000000ae310000b8310000a6320000b635000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Materials
+      m_OriginalName: Materials
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 12886
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 5}
     m_SearchString: 
@@ -395,7 +395,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a6290000b0290000ea2a0000082b00004c2d0000
+    m_ExpandedIDs: 00000000ae310000b8310000a6320000b6350000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -511,9 +511,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 0008fffff0fbffff00000000
+    m_SelectedIDs: 3addfcff
+    m_LastClickedID: -205510
+    m_ExpandedIDs: 3addfcff5e13fdff5a14fdffa22afdff1230fdff7c5dfdff505ffdffd261fdff2665fdffa667fdff026bfdfffa80fdff3282fdff2a96fdff3697fdfff698fdffccacfdff5ac0fdffe0baffff0000000026360000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -563,14 +563,14 @@ MonoBehaviour:
     height: 792
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 615.5931727781286
+  lastFramingTime: 3187.0840696779674
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 3.6877737, y: 2.1952236, z: -0.14656973}
+    m_Target: {x: 1000.0311, y: 307.3728, z: 163.47522}
     speed: 2
-    m_Value: {x: 3.6877737, y: 2.1952236, z: -0.14656973}
+    m_Value: {x: 1000.0311, y: 307.3728, z: 163.47522}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -598,13 +598,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.15790334, y: -0.1635983, z: 0.026537241, w: 0.9734465}
+    m_Target: {x: -0.061118823, y: 0.14471515, z: -0.008956375, w: -0.9875433}
     speed: 2
-    m_Value: {x: 0.15790334, y: -0.1635983, z: 0.026537241, w: 0.9734465}
+    m_Value: {x: -0.061118826, y: 0.14471516, z: -0.0089563755, w: -0.98754334}
   m_Size:
-    m_Target: 4.688116
+    m_Target: 1251.3274
     speed: 2
-    m_Value: 4.688116
+    m_Value: 1251.3274
   m_Ortho:
     m_Target: 0
     speed: 2
