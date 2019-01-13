@@ -12,11 +12,15 @@ public class OpenDoor : MonoBehaviour {
 
     [SerializeField]
     private Text text;
+    [SerializeField]
+    private Text uiText;
 
     // Use this for initialization
     void Start () {
 
         bool isEntered;
+
+        uiText.gameObject.SetActive(false);
 
 	}
 
@@ -24,14 +28,41 @@ public class OpenDoor : MonoBehaviour {
     void Update()
     {
 
-        if(Input.GetKeyDown(KeyCode.E) && isEntered == true)
+        if (isEntered == true)
+        {
+
+            uiText.gameObject.SetActive(true);
+
+            uiText.text = ("Press E to open the door");
+        }
+
+        if (isEntered == false)
+        {
+
+            uiText.gameObject.SetActive(false);
+
+        }
+
+        if (Input.GetKeyDown(KeyCode.E) && isEntered == true)
         {
             this.GetComponent<Animator>().SetTrigger("isOpen");
 
             text.text = ("Game Complete");
 
+
             Debug.Log("In Collider");
 
+
+
+
+        }
+
+
+        if ( isEntered == true)
+        {
+            uiText.gameObject.SetActive(true);
+
+            uiText.text = ("Press E to open the door");
         }
 
     }

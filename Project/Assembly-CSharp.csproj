@@ -61,6 +61,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\DeactivateLockdown.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\KeyScript.cs" />
     <Compile Include="Assets\Scripts\OpenDoor.cs" />
     <Compile Include="Assets\Scripts\OpenVents.cs" />
     <Compile Include="Assets\Scripts\SpinBall.cs" />

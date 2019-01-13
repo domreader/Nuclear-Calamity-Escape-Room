@@ -5,15 +5,39 @@ using UnityEngine.UI;
 
 public class UpdateUI : MonoBehaviour {
 
-    private Text text;
+    bool isEntered;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
+
+    [SerializeField]
+    private Text text;
+    [SerializeField]
+    private Text uiText;
+
+    // Use this for initialization
+    void Start () {
+
+        bool isEntered;
+
+        uiText.gameObject.SetActive(false);
+
+    }
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
+
+        if (isEntered == true)
+        {
+            uiText.gameObject.SetActive(true);
+
+            uiText.text = ("Press E to Interact");
+        }
+
+        if (isEntered == false)
+        {
+
+            uiText.gameObject.SetActive(false);
+
+        }
+
+    }
 }
