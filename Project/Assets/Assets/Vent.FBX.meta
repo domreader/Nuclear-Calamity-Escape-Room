@@ -1,0 +1,244 @@
+fileFormatVersion: 2
+guid: 332d466c9a4f7da4bb61fa07d852b64d
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Box001
+    100002: //RootNode
+    100004: Vent 003
+    100006: Vent 004
+    100008: Vent 005
+    100010: Vent 006
+    100012: Vent 007
+    100014: Vent 008
+    100016: Vent 009
+    100018: Vent 010
+    100020: Vent 011
+    100022: Vent 012
+    100024: Vent 013
+    100026: Vent 014
+    100028: Vent 015
+    100030: Vent 016
+    100032: Vent 017
+    100034: Vent 018
+    100036: Vent 019
+    100038: Vent 020
+    100040: Vent 021
+    100042: Vent 2
+    100044: Vent 3
+    100046: Vent Opening
+    100048: Vent Opening001
+    100050: Vent Opening002
+    100052: VentBlock
+    100054: VentBlock001
+    100056: VentBlock002
+    100058: VentBlock003
+    100060: VentBlock004
+    100062: VentBlock005
+    400000: Box001
+    400002: //RootNode
+    400004: Vent 003
+    400006: Vent 004
+    400008: Vent 005
+    400010: Vent 006
+    400012: Vent 007
+    400014: Vent 008
+    400016: Vent 009
+    400018: Vent 010
+    400020: Vent 011
+    400022: Vent 012
+    400024: Vent 013
+    400026: Vent 014
+    400028: Vent 015
+    400030: Vent 016
+    400032: Vent 017
+    400034: Vent 018
+    400036: Vent 019
+    400038: Vent 020
+    400040: Vent 021
+    400042: Vent 2
+    400044: Vent 3
+    400046: Vent Opening
+    400048: Vent Opening001
+    400050: Vent Opening002
+    400052: VentBlock
+    400054: VentBlock001
+    400056: VentBlock002
+    400058: VentBlock003
+    400060: VentBlock004
+    400062: VentBlock005
+    2100000: No Name
+    2300000: Box001
+    2300002: Vent 003
+    2300004: Vent 004
+    2300006: Vent 005
+    2300008: Vent 006
+    2300010: Vent 007
+    2300012: Vent 008
+    2300014: Vent 009
+    2300016: Vent 010
+    2300018: Vent 011
+    2300020: Vent 012
+    2300022: Vent 013
+    2300024: Vent 014
+    2300026: Vent 015
+    2300028: Vent 016
+    2300030: Vent 017
+    2300032: Vent 018
+    2300034: Vent 019
+    2300036: Vent 020
+    2300038: Vent 021
+    2300040: Vent 2
+    2300042: Vent 3
+    2300044: Vent Opening
+    2300046: Vent Opening001
+    2300048: Vent Opening002
+    2300050: VentBlock
+    2300052: VentBlock001
+    2300054: VentBlock002
+    2300056: VentBlock003
+    2300058: VentBlock004
+    2300060: VentBlock005
+    3300000: Box001
+    3300002: Vent 003
+    3300004: Vent 004
+    3300006: Vent 005
+    3300008: Vent 006
+    3300010: Vent 007
+    3300012: Vent 008
+    3300014: Vent 009
+    3300016: Vent 010
+    3300018: Vent 011
+    3300020: Vent 012
+    3300022: Vent 013
+    3300024: Vent 014
+    3300026: Vent 015
+    3300028: Vent 016
+    3300030: Vent 017
+    3300032: Vent 018
+    3300034: Vent 019
+    3300036: Vent 020
+    3300038: Vent 021
+    3300040: Vent 2
+    3300042: Vent 3
+    3300044: Vent Opening
+    3300046: Vent Opening001
+    3300048: Vent Opening002
+    3300050: VentBlock
+    3300052: VentBlock001
+    3300054: VentBlock002
+    3300056: VentBlock003
+    3300058: VentBlock004
+    3300060: VentBlock005
+    4300000: VentBlock
+    4300002: Vent Opening
+    4300004: Vent 2
+    4300006: VentBlock001
+    4300008: Vent 3
+    4300010: Vent 003
+    4300012: Vent 004
+    4300014: Vent 005
+    4300016: Vent 006
+    4300018: Vent 007
+    4300020: VentBlock002
+    4300022: Vent Opening001
+    4300024: Vent 008
+    4300026: VentBlock003
+    4300028: Vent 009
+    4300030: Vent 010
+    4300032: Vent 011
+    4300034: Vent 012
+    4300036: Vent 013
+    4300038: Vent 014
+    4300040: VentBlock004
+    4300042: Vent Opening002
+    4300044: Vent 015
+    4300046: VentBlock005
+    4300048: Vent 016
+    4300050: Vent 017
+    4300052: Vent 018
+    4300054: Vent 019
+    4300056: Vent 020
+    4300058: Vent 021
+    4300060: Box001
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
