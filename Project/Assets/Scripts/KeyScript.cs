@@ -81,11 +81,23 @@ public class KeyScript : MonoBehaviour {
         }
 
         if (keyRange == true)
-        {
+        { 
+        
             uiText.gameObject.SetActive(true);
 
-            uiText.text = ("Press E to open the door");
+            uiText.text = ("Press E to pick the key up");
         }
+
+
+        if (keyRange == false)
+        {
+
+            uiText.gameObject.SetActive(false);
+
+            uiText.text = ("");
+
+        }
+
     }
 
 

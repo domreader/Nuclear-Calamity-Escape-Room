@@ -45,15 +45,13 @@ public class OpenDoor : MonoBehaviour {
 
         if (Input.GetKeyDown(KeyCode.E) && isEntered == true)
         {
+
             this.GetComponent<Animator>().SetTrigger("isOpen");
 
             text.text = ("Game Complete");
 
 
             Debug.Log("In Collider");
-
-
-
 
         }
 

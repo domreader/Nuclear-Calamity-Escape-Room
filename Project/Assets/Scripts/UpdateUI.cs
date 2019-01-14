@@ -25,19 +25,6 @@ public class UpdateUI : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        if (isEntered == true)
-        {
-            uiText.gameObject.SetActive(true);
-
-            uiText.text = ("Press E to Interact");
-        }
-
-        if (isEntered == false)
-        {
-
-            uiText.gameObject.SetActive(false);
-
-        }
 
     }
 }
