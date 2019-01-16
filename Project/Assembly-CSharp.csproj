@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\KeyScript.cs" />
     <Compile Include="Assets\Scripts\OpenDoor.cs" />
     <Compile Include="Assets\Scripts\OpenVents.cs" />
+    <Compile Include="Assets\Scripts\RodLower.cs" />
     <Compile Include="Assets\Scripts\SpinBall.cs" />
     <Compile Include="Assets\Scripts\UpdateUI.cs" />
     <Reference Include="UnityEditor.StandardEvents">
