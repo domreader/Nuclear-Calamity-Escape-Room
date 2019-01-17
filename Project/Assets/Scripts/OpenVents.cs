@@ -35,20 +35,22 @@ public class OpenVents : MonoBehaviour {
             uiText.text = ("Press R to open the door");
         }
 
-        if (ventConsoleRange == false)
-        {
-
-            uiText.gameObject.SetActive(false);
-
-        }
 
         if (Input.GetKeyDown(KeyCode.R))
         {
             this.GetComponent<Animator>().SetTrigger("ventUp");
 
-            text.text = ("Now Slow Down Reactions");
+            text.text = ("Now Pick Up The Blue Book");
 
             Debug.Log("In Collider");
+
+        }
+
+
+        if (ventConsoleRange == false)
+        {
+
+            uiText.gameObject.SetActive(false);
 
         }
 

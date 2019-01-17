@@ -60,6 +60,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\DeactivateLockdown.cs" />
+    <Compile Include="Assets\Scripts\ExitCollider.cs" />
+    <Compile Include="Assets\Scripts\gameLose.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\KeyScript.cs" />
     <Compile Include="Assets\Scripts\OpenDoor.cs" />

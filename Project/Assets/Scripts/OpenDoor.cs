@@ -20,7 +20,6 @@ public class OpenDoor : MonoBehaviour {
 
         bool isEntered;
 
-        uiText.gameObject.SetActive(false);
 
 	}
 
@@ -36,12 +35,7 @@ public class OpenDoor : MonoBehaviour {
             uiText.text = ("Press E to open the door");
         }
 
-        if (isEntered == false)
-        {
-
-            uiText.gameObject.SetActive(false);
-
-        }
+     
 
         if (Input.GetKeyDown(KeyCode.E) && isEntered == true)
         {
@@ -56,11 +50,11 @@ public class OpenDoor : MonoBehaviour {
         }
 
 
-        if ( isEntered == true)
+        if (isEntered == false)
         {
-            uiText.gameObject.SetActive(true);
 
-            uiText.text = ("Press E to open the door");
+            uiText.gameObject.SetActive(false);
+
         }
 
     }

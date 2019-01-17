@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class KeyScript : MonoBehaviour {
 
@@ -54,7 +55,7 @@ public class KeyScript : MonoBehaviour {
             Destroy(Key);
 
 
-            text.text = ("You have the key, now activate the panel");
+            text.text = ("You have the book, now activate the panel");
 
            
 
@@ -98,6 +99,16 @@ public class KeyScript : MonoBehaviour {
 
         }
 
+    
+
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                SceneManager.LoadScene("MenuScreen");
+            }
+
+       
+
+
     }
 
 
@@ -110,13 +121,13 @@ public class KeyScript : MonoBehaviour {
   
 
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider collider)
     {
         keyRange = true;
 
     }
 
-    private void OnTriggerExit(Collider other)
+    private void OnTriggerExit(Collider collider)
     {
         keyRange = false;
     }
